@@ -1,0 +1,52 @@
+html {
+    font-family: Georgia;
+}
+
+#bande1 {
+    background-color: #003175;
+    padding-top:15px ;
+    padding-bottom:15px ;
+    text-align: center;
+    font-family: Georgia;
+    
+}
+
+#bande1 a {
+    text-decoration: none;
+    color: white;
+    font-size:15px ;
+}
+
+#bande1 a:not(:last-of-type) {
+    padding-right: 15px;
+}
+
+#couv{
+
+}
+
+#bande2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#bande2 * {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logoh1 img {
+    width: 50px;
+}
+
+#abonnement {
+    background-color: goldenrod;
+    border-radius: 3px;
+    border:none;
+    width: 150px;
+}
+
+#bande3{
+    
+}

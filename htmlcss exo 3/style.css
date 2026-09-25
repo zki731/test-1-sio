@@ -1,0 +1,128 @@
+html{
+    font-family: Georgia;
+}
+
+#bande1{
+    background-color:#003175;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+#bande1 a{
+    color: antiquewhite;
+    text-decoration: none;
+    margin: 0 12px;
+}
+
+#bande2{
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    image-resolution: 100px;
+}
+
+#bande3{
+    /*Display en flex, wrap pour passer à la ligne et éléments alignés et centrés.*/
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 28px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: 1px solid #e0e0e0; 
+    border-bottom: 1px solid #e0e0e0;
+    /* bordures */
+}
+
+#bande3 a{
+    color: #1a1a1a;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+/* survolage du texte en bleu plutot stylé imo */
+
+#bande3 a:hover{ 
+    color: #003175;
+}
+
+
+#bande4{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+#bande4 p{
+    font-size :14px;
+    color:rgb(159,159,159);
+}
+#bande4 h1{
+    font-size:28px;
+    color:rgb(35,95,171);
+}
+
+
+.Colonne{
+    display:flex;
+    gap:20px;
+
+}
+/*Mise en page des listes dans les colonnes, margin area et padding a 0 pour les 2 listes, pas de list-style sur la colonne 1 */
+#Colonne1 ul{
+    list-style:none;
+    margin : 0;
+    padding : 0;
+}
+/* Bordure colonne 1 et 2 */
+#Colonne1 li, #Colonne3 li{
+    margin: 0 0 20px 0;
+    border-bottom:solid rgb(235,235,235);
+}
+
+#Colonne1 img, #Colonne3 img{
+    display:block;
+    width: 180px;
+    height: 140px;
+    object-fit: cover;
+}
+/* Colonne 2, mise en page des articles : */
+
+#Colonne2{
+    border-width: 1px;
+    border-left:solid rgb(235, 235, 235);
+    padding: 25px;
+}
+#Colonne2 article{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: solid rgb(235, 235, 235);
+}
+
+#Colonne2 h2{
+   font-style : bold;
+   font-size : 28px;
+   color : rgb(27,55,78)
+}
+#Colonne2 p{
+    font-style:italic;
+    font-size : 18px;
+    color : rgb(29, 67, 95);
+}
+#Colonne2 img {
+    max-width: 100%;
+    height: auto;  
+
+}
+/* Colonne 3, mise en page de la liste : */
+#Colonne3, ol{
+    list-style-type:decimal-leading-zero;    
+    margin : 0;
+    padding : 0;
+}
